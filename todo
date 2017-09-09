@@ -1,0 +1,11 @@
+  # TODO
+  # - Create stats method that will run play game multiple times to
+  #   get the stats of long term
+  # - Create an extension method of play_game that will recieve
+  #   num_iterations and a dicitonary that maps winnings or losses
+  #   to their respective probabilities
+  # - Create stats_2 method for extended play_game
+  # - Create a utility method that will use the other stats methods (stats
+  #   methods should return stats like expected value) and several
+  #   utility preferences (straight EV, risky, conservative (log)) 
+  #   to find whether to play or not
