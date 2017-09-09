@@ -93,4 +93,5 @@ class GamblersRuin:
     print("Biggest win streak:   ${}".format(max(self.gain)))
     print("Biggest lose streak: -${}".format(-1*min(self.lose)))
     print("Most amount of money had:  {}".format(max(self.money_set)))
-    print("Least amount of money had: {}\n".format(min(self.money_set)))  
+    print("Least amount of money had: {}\n".format(min(self.money_set))) 
+

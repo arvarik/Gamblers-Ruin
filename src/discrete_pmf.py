@@ -60,3 +60,4 @@ class DiscretePMF:
       ev += key*value
 
     return round(ev, 3)
+
