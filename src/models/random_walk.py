@@ -1,10 +1,11 @@
-from discrete_pmf import DiscretePMF
+from stats.discrete_pmf import DiscretePMF
 
-class GamblersRuin:
+
+class RandomWalk:
 
   def __init__(self, pmf={-1:.5, 1:.5}, threshold_gain=5, threshold_lose=-5):
     """
-    Constructor for Gamblers Ruin model.
+    Constructor for RandomWalk model.
 
     Input is probability mass function of game and thresholds for showing gain
     and loss streaks

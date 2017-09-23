@@ -1,5 +1,8 @@
-from gamblers_ruin import GamblersRuin
-from discrete_pmf import DiscretePMF
+import sys
+sys.path.append('../../src')
+
+from models.random_walk import RandomWalk
+from stats.discrete_pmf import DiscretePMF
 
 
 def test_discrete_pmf():
@@ -16,19 +19,19 @@ def test_discrete_pmf():
 
   print(str(pmf))
 
-def test_gamblers_ruin():
+def test_random_walk():
   """
-  Test method to test the GamblersRuin module
+  Test method to test the RandomWalk module
   """
-  gamblers_ruin = GamblersRuin({-2:.25, -1:.25, 1:.25, 2:.25})
+  random_walk = RandomWalk({-2:.25, -1:.25, 1:.25, 2:.25})
 
-  gamblers_ruin.play_game(200, 50)
+  random_walk.play_game(200, 50)
 
 
 if __name__ == '__main__':
   """
   Main method to call test functions
   """
-  test_gamblers_ruin()
+  test_random_walk()
   # test_discrete_pmf()
   

@@ -102,3 +102,6 @@ ENV/
 
 # DS Store
 .DS_Store
+
+# init files
+src/__init__.py
