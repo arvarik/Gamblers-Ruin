@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../../src')
 
-from models.random_walk import RandomWalk
+from models.discrete_random_walk import RandomWalk
 from stats.discrete_pmf import DiscretePMF
 
 

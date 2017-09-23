@@ -5,7 +5,7 @@ class RandomWalk:
 
   def __init__(self, pmf={-1:.5, 1:.5}, threshold_gain=5, threshold_lose=-5):
     """
-    Constructor for RandomWalk model.
+    Constructor for RandomWalk model in the discrete case.
 
     Input is probability mass function of game and thresholds for showing gain
     and loss streaks
