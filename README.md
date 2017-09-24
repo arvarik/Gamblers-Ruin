@@ -1,4 +1,5 @@
-# Gamblers Ruin - A Random Walk Down Despair
+# Gamblers Ruin
+## A Random Walk Down Despair
 
 The term Gambler's Ruin has had many meanings throughout the years.
 The most commonly used meaning is as follows:
@@ -42,6 +43,8 @@ played. As you play games, you always "walk" 1 unit right on the x-axis, and eit
 1 unit up or down depending on if you have won the game or not. The image below
 shows a simple symmetric random walk.
 
+
+![alt text](https://github.com/Arvind-Arik/Gamblers-Ruin/blob/master/assets/random_walk.png "Simple Symmetric Random Walk Example")
 
 
 ### More info
